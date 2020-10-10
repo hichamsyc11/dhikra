@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #1a936f,#88d498);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+height: 40px;
+padding-left: 20px;
+}
+.navbar-brand img{
+    width: 80px;
+    margin-bottom: 5%;   
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+color: #fff !important;
+font-weight: 600;
+float: right;
+text-align: left;
+}
+.navbar-nav li a:hover{
+    background-color: yellow;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+outline: none !important;
+}
+/*----------------part II BANNER-----------------*/
+#banner{
+    background-image: linear-gradient(to right, #1a936f,#88d498);
+    color: white;
+    padding-top: 5%;
+}
+#banner .p{
+font-size: 25px;
+padding-top: 15px;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+color: white;
+text-decoration: none;
+}
+.bottom-img{
+width: 100%;
+}
+/*-----------parte III------------*/
+#services{
+    padding: 80px 0;
+}
+#services .fir{
+    font-size: 35px;
+}
+.service-img{
+    width: 100px;
+
+    margin-top: 20px;
+}
+#services h4{
+    padding:5px ;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.service{
+    padding: 20px;
+}
+.title::before{
+content: '';
+background: #1a936f;
+height: 5px;
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform:translateY(60px);
+}
+.title::after{
+    content: '';
+    background: #1a936f;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform:translateY(5px);
+    }
+    .btn-primary{
+        margin-top: 30px;
+        box-shadow: none;
+        padding: 8px;
+        border: none;
+        border-radius: 20px;
+        background-image: linear-gradient(to right, #1a936f,#88d498);
+    }
+    /*-------------------about us-------------------*/
+#about-us{
+        background: #f8f9fa;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+.about-title{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 8%;
+    }
+#about-us ul li{
+margin: 10px 0;
+font-size: 20px;
+}
+#about-us ul{
+    margin-left: 10px;
+    
+}
+#about-us .img-fluid{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 0 15px black;
+}
+/*-----------------PART4----------------*/
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #1a936f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 19px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+/*--------------social media----------------*/
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+font-size: 36px;
+font-weight: 600;
+margin-bottom: 30px;
+
+}
+.social-icons img{
+width: 60px;
+transition: 0.5s;
+}
+.social-icons a:hover img{
+transform: translateY(-10px);
+}
+/*----------footer part----------*/
+#footer{
+    background-image: linear-gradient(to right, #1a936f,#88d498);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 90px;
+    
+}
+.footer-box .fa{
+    margin-left: 8px;
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #1a936f,#88d498);
+}
+.footer-box .fa:hover{
+    border: 2px solid white;
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
+hr{
+    background-color: #fff;
+}
+.copywrite{
+    margin-bottom: 0;
+    padding-bottom:20px ;
+    text-align: center;
+}
